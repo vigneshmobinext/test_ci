@@ -4,7 +4,7 @@ app.get('/', (req, res, next) => {
     res.json({ data: 'Hi' });
 });
 app.listen(1337).on('listening', () => {
-    console.log('Running oon port 1337');
+    console.log('Running on port 1337');
 }).on('error', (err) => {
     console.log('Error', err);
 });
