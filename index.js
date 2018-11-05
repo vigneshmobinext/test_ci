@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', (req, res, next) => {
-    res.json({ data: 'Hi Mobinext' });
+    res.json({ data: 'Hi Mobinext Public' });
 });
 app.listen(1337).on('listening', () => {
     console.log('Running on port 1337');
